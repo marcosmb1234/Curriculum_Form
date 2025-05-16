@@ -1,0 +1,58 @@
+/* Estilo para o formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffcccc; /* Cor de fundo do formulário (vermelho claro) */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+}
+
+/* Estilo para os botões */
+button {
+    background-color: #ff0000; /* Cor de fundo do botão (vermelho) */
+    color: white; /* Cor do texto do botão */
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+    background-color: #cc0000; /* Altera a cor de fundo ao passar o mouse (vermelho escuro) */
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ff0000; /* Cor da borda dos campos (vermelho) */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Adiciona um pequeno espaço vertical entre os inputs */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+select {
+    margin-bottom: 10px;
+}
+
+/* Estilo para o texto dentro dos botões */
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
