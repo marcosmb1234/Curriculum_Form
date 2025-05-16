@@ -1,2 +1,2 @@
 # Curriculum_Form
-Aplicação em PHP que coleta dados pessoais e profissionais via formulário e gera automaticamente um currículo formatado, pronto para visualização, impressão ou exportação.
+Projeto desenvolvido em PHP com a colaboração de mais duas pessoas, com o objetivo de criar um sistema web que coleta dados pessoais e profissionais via formulário e gera um currículo formatado automaticamente. A aplicação organiza as informações inseridas e permite exibição do currículo final.
